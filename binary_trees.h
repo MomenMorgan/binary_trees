@@ -1,4 +1,4 @@
-#ifndef BINARY_TREES_H
+\0;276;0c#ifndef BINARY_TREES_H
 #define BINARY_TREES_H
 
 /**
@@ -19,6 +19,7 @@ struct binary_tree_s
 
 typedef struct binary_tree_s binary_tree_t;
 
+int binary_tree_is_root(const binary_tree_t *node);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 void binary_tree_print(const binary_tree_t *);
