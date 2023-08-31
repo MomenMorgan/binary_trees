@@ -2,6 +2,9 @@
 #define BINARY_TREES_H
 
 #include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
  * struct binary_tree_s - Binary tree node
  *
@@ -36,5 +39,6 @@ size_t max_size_t(size_t a, size_t b);
 
 /* mandatory tasks 10-18 */
 size_t binary_tree_depth(const binary_tree_t *tree);
+size_t binary_tree_size(const binary_tree_t *tree);
 
 #endif
