@@ -2,8 +2,8 @@
 
 /**
  * binary_tree_leaves - counts the leaves in binary tree
- * @tree: root node 
- * Return: total leaves 
+ * @tree: root node
+ * Return: total leaves
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
